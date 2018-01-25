@@ -1,0 +1,118 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sound"
+            android:textSize="18sp"
+            android:textColor="#D9000000"/>
+
+        <com.rhino.animcheckbox.view.AnimCheckBox
+            android:id="@+id/AnimCheckBox1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            app:acb_checked_background_color="#FF008888"
+            app:acb_unchecked_background_color="#FFFFFFFF"
+            app:acb_stoke_width="1.5dp"
+            app:acb_checked_stoke_color="#FF008888"
+            app:acb_unchecked_stoke_color="#1A000000"
+            app:acb_checked_thumb_color="#FFFFFFFF"
+            app:acb_unchecked_thumb_color="#FFFFFFFF"
+            app:acb_thumb_shadow_radius="2dp"
+            app:acb_thumb_shadow_x="-0.7dp"
+            app:acb_thumb_shadow_y="0.7dp"
+            app:acb_checked_thumb_shadow_color="#00000000"
+            app:acb_unchecked_thumb_shadow_color="#4B000000"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1A000000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibration"
+            android:textSize="18sp"
+            android:textColor="#D9000000"/>
+
+        <com.rhino.animcheckbox.view.AnimCheckBox
+            android:id="@+id/AnimCheckBox2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            app:acb_checked_background_color="#FF008888"
+            app:acb_unchecked_background_color="#FFFFFFFF"
+            app:acb_stoke_width="2dp"
+            app:acb_checked_stoke_color="#FF008888"
+            app:acb_unchecked_stoke_color="#1A000000"
+            app:acb_checked_thumb_color="#FFFFFFFF"
+            app:acb_unchecked_thumb_color="#FFFFFFFF"
+            app:acb_thumb_shadow_radius="2dp"
+            app:acb_thumb_shadow_x="-0.7dp"
+            app:acb_thumb_shadow_y="0.7dp"
+            app:acb_checked_thumb_shadow_color="#00000000"
+            app:acb_unchecked_thumb_shadow_color="#4B000000"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1A000000"/>
+
+
+    <com.rhino.animcheckbox.view.AnimCheckBox
+        android:id="@+id/AnimCheckBox3"
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="50dp"
+        app:acb_checked_background_color="#FF008888"
+        app:acb_unchecked_background_color="#FFFFFFFF"
+        app:acb_stoke_width="4dp"
+        app:acb_checked_stoke_color="#FF008888"
+        app:acb_unchecked_stoke_color="#1A000000"
+        app:acb_checked_thumb_color="#FFFFFFFF"
+        app:acb_unchecked_thumb_color="#FFFFFFFF"
+        app:acb_thumb_shadow_radius="3dp"
+        app:acb_thumb_shadow_x="-1.5dp"
+        app:acb_thumb_shadow_y="1.5dp"
+        app:acb_checked_thumb_shadow_color="#00000000"
+        app:acb_unchecked_thumb_shadow_color="#4B000000"/>
+
+
+    <Button
+        android:id="@+id/checkbox_switch"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="switch"
+        android:textSize="16sp"
+        android:textColor="#D9000000"/>
+
+
+</LinearLayout>
